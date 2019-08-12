@@ -8,6 +8,7 @@ cache:
     - $HOME/.m2
 
 script:
-  - mvn test && mvn org.owasp:dependency-check-maven:check
+  - mvn test
+  - mvn org.owasp:dependency-check-maven:check
 
 
